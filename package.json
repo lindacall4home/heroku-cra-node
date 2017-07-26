@@ -14,7 +14,15 @@
     "react-ui/node_modules"
   ],
   "dependencies": {
-    "express": "^4.14.1"
+    "express": "^4.15.3",
+    "immutable": "^3.8.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10",
+    "react-transition-group": "^2.2.0",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3",
+    "socket.io-react": "^1.2.0"
   },
   "repository": {
     "type": "git",
