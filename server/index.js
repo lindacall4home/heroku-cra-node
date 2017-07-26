@@ -5,7 +5,7 @@ var io = require('socket.io').listen(server);
 const port = process.env.PORT || 8000;
 
 app.get('/', function(req, res){
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile('../react-ui/public/index.html');
 });
 
 io.on('connection', function(socket){
